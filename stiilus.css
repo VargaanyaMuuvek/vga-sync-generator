@@ -1,9 +1,10 @@
 body{background-color: #222; color: #ccc; font-family: Serif;}
 hr {background: linear-gradient(to right, #222, #fa0, #222); height:2px; border: none;}
 h1{font-family: Monospace; font-style: italic; color: #eee; display: inline;}
+a{color: #0af;}
 
 #hivatkozások{list-style: none; margin: 0 0 0 0; padding: 0 0 0 0;}
-#hivatkozások a{color: #0af;}
 #hivatkozások li{display: inline;}
 #vissza{color: #0af;}
 #lábléc div{display: inline;}
+#blogbejegyzések
