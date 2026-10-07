@@ -11,7 +11,7 @@
 		</ul>
 	<hr>
 	<p>Itt található a készülék dokumentációja, és fejlesztési blogja.</p>
-	<p>Ahogy a raszter pásztázza a képernyőt, avval szinkronban kell a képet is betáplálni, illetve amikor eléri a képernyő szélét/alját, vissza kell küldeni a kezdőpozícióba. E készülék ezeket a jeleket adja ki, így megspórolva azt, hogy képforrásba külön VGA-vezérlőt építsünk bele. Ezentúl megadja azt is, hogy a raszter éppen milyen koordinátán található.</p>
+	<p>A VGA egységesített kommunikációs protokoll, ami mozgókép megjelenítését teszi lehetővé. Úgy működik, hogy másodpercenként meghatározott számú állóképet egymás után vetít le a kijelzést szölgáló készülék. A készülék folyamatosan fogadja a beérkező jelet, és valós időben dolgozza fel. A képkocka egy fénypont egyenletes pásztázásával történik a képernyőn, aminek piros, kék, és zöld összetevőjű fényerejét a képet küldő berendezés adja meg. Ez a pont mikor eléri a lépernyő szélét, illetve alját, megfelelő elektromos pulzusokkal kell a másik végletbe visszaküldeni, ráadásul precízen kell beidőzíteni ezen impulzust, mert a fénypont mozgási sebességét a kijelző határozza meg. Jelen weboldal egy olyan eszköz használatát dokumentálja, ami ezeket az ún. szinkronizálójeleket adja ki; termésézetesen megfelelően időzítve. Ez az egyetlen feladata, nem tud önmagában képet küldeni.</p>
 	<p align="center"><img src="./honlap/IMG_5045.JPG" alt="A kész (legyártott és összeforrasztott) nyáklemez. Alatta szilikonalátét. Stanley tapétavágó. Labortáp." title="2026. október 4."/></p>
 	<hr>
 	<div align="right">
