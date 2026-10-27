@@ -1,4 +1,5 @@
-body{background-color: #222; color: #ccc; font-family: Serif;}
+/*html{cursor: url("./honlap/kurzor.png"), auto;} egyedi egérmutatókat próbáltam ki, nem túl haszbos itt*/
+body{background-color: #222; /*background-image: url("./honlap/háttér.png");*/ color: #ccc; font-family: Serif;}
 hr {background: linear-gradient(to right, #222, #fa0, #222); height:2px; border: none;}
 h1{font-family: Monospace; font-style: italic; color: #eee; display: inline;}
 a{color: #0af;}
